@@ -70,6 +70,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)/project/include;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)/project/src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -127,14 +131,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="KFUproject.cpp" />
-    <ClCompile Include="Task0920.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="project\src\Task0920.cpp" />
+    <ClCompile Include="project\src\Task1004.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Task0920.h" />
+    <ClInclude Include="project\include\Task0920.h" />
+    <ClInclude Include="project\include\Task1004.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Text.txt" />
+    <Text Include="project\resources\Text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
