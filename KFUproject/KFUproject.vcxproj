@@ -136,6 +136,7 @@
     <ClCompile Include="project\src\Task1004.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="project\include\gauss_method.hpp" />
     <ClInclude Include="project\include\Task0920.h" />
     <ClInclude Include="project\include\Task1004.h" />
   </ItemGroup>

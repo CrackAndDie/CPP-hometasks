@@ -32,6 +32,9 @@
     <ClInclude Include="project\include\Task1004.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="project\include\gauss_method.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="project\resources\Text.txt">
