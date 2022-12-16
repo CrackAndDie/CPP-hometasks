@@ -18,21 +18,21 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="project\src\Task0920.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="project\src\Task1004.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="project\include\Task0920.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="project\include\Task1004.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="project\include\gauss_method.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="project\include\Task1018.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="project\include\Task1101.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="project\include\Task1108.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

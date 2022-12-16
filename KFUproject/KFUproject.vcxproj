@@ -132,13 +132,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="project\src\Task0920.cpp" />
-    <ClCompile Include="project\src\Task1004.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="project\include\gauss_method.hpp" />
-    <ClInclude Include="project\include\Task0920.h" />
     <ClInclude Include="project\include\Task1004.h" />
+    <ClInclude Include="project\include\Task1018.h" />
+    <ClInclude Include="project\include\Task1101.h" />
+    <ClInclude Include="project\include\Task1108.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="project\resources\Text.txt" />

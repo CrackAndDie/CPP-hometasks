@@ -1,31 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include "project/include/gauss_method.hpp"
+#include "project/include/Task1108.h"
 
-void fileRead(const char path[], V*& vect, Q& rows)
-{
-    std::ifstream f(path);
-    // проверяем, что файл открылся
-    if (f.is_open())
-    {
-        // считываем кол-во строк
-        f >> rows;
-        // выделяем память под вектор
-        createVector(vect, rows);
-        // считываем каждый элемент
-        for (Q i = 0; i < rows; ++i)
-        {
-            f >> vect[i];
-        }
-        // закрываем файл
-        f.close();
-    }
-    else
-    {
-        std::cout << "Error while opening file" << std::endl;
-    }
-}
- 
+
 int main()
 {    
     return 0;
